@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eee;
+    background-color: #464444;
 }
 
 header {
@@ -23,8 +23,9 @@ header .logo {
 }
 
 header .nav-link {
-    color: #3b334e;
+    color: #ffffff;
     border-radius: 4px;
+    box-shadow: 0 0 0.3rem rgba(255, 255, 255, 0.466);
     display: inline-block;
     margin: 0.5rem 0.25rem;
     padding: 0.625rem 1.125rem;
@@ -33,40 +34,44 @@ header .nav-link {
 }
 
 header .nav-link:hover {
-    background-color: #e2d7ff;
+    background-color: #4c00ff;
 }
 
 h1 {
     font-size: 1.5rem;
     margin: 1rem 0 0.5rem;
+    color: #000000c7;
 }
 
 h2 {
     font-size: 1.25rem;
     margin: 1rem 0 0.5rem;
+    color: #000000c7;
 }
 
 p {
     line-height: 1.5;
+    color: #ffffffc7;
 }
 
 a {
-    color: #3b334e;
+    color: #7d4eeb;
     text-decoration: none;
 }
 
 ul li {
     margin-bottom: 0.5rem;
     margin-left: 2.5rem;
+    color: #fff;
 }
 
 .container {
     min-height: calc(100vh - 252px);
-    max-width: 800px;
+    max-width: 90%;
     margin: 0 auto 2rem;
     padding: 2rem;
-    background-color: #fff;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    background-color: #464444;
+    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.466);
     border-radius: 5px;
 }
 
@@ -75,9 +80,9 @@ section {
 }
 
 .call-to-action {
-    background-color: #3b334e;
+    background-color: #3904b4;
     border: 0;
-    border-radius: 4px;
+    border-radius: 8px;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -88,7 +93,7 @@ section {
 }
 
 .call-to-action:hover {
-    background-color: #4e4368;
+    background-color: #4c00ff;
 }
 
 .skills {
@@ -98,6 +103,6 @@ section {
 footer {
     text-align: center;
     padding: 1.5rem 0;
-    background-color: #3b334e;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffffd0;
 }
